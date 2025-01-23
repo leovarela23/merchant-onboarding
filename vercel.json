@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/member/:path*",
+      "destination": "https://api.sandbox.token.io/:path*"
+    }
+  ]
+}
