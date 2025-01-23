@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       proxy: {
-        '/api/member': {
+        '/api/member/sub-tpps': {
           target: 'https://api.sandbox.token.io',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ''),
